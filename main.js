@@ -1,7 +1,7 @@
 // entry point of my command line 
-let helpFunc = require("./commands/help");
-let orgFunc = require("./commands/organize");
-let treeFunc = require("./commands/tree");
+let helpFunc = require("./help");
+let orgFunc = require("./organize");
+let treeFunc = require(".tree");
 // console.log(helpFunc.ghoda());
 let inputArr = process.argv.slice(2);
 // console.log(inputArr);
